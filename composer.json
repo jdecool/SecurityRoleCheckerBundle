@@ -1,0 +1,25 @@
+{
+    "name": "jdecool/security-role-checker-bundle",
+    "description": "Provide Symfony services for checking user security roles",
+    "type": "symfony-bundle",
+    "keywords": ["symfony", "security", "role", "hasRole"],
+    "homepage": "http://github.com/jdecool/SecurityRoleCheckerBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jérémy DECOOL",
+            "email": "contact@jdecool.fr"
+        }
+    ],
+    "require": {
+        "symfony/security-bundle": "~2.7|~3.0"
+    },
+    "require-dev": {
+        "atoum/atoum": "^2.8",
+        "atoum/stubs": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {"JDecool\\Bundle\\SecurityRoleCheckerBundle\\": ""},
+        "exclude-from-classmap": ["Tests/"]
+    }
+}

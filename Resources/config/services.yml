@@ -1,0 +1,13 @@
+services:
+    jdecool.security.role_checker:
+        class: JDecool\Bundle\SecurityRoleCheckerBundle\Security\RoleChecker
+        arguments:
+            - "@security.authorization_checker"
+            - "@security.role_hierarchy"
+
+    jdecool.twig.security_role_checker:
+        class: JDecool\Bundle\SecurityRoleCheckerBundle\Twig\Extension\SecurityExtension
+        arguments:
+            - "@jdecool.security.role_checker"
+        tags:
+            - { name: twig.extension }
