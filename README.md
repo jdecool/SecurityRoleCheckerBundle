@@ -11,6 +11,12 @@ This bundle provides Symfony services for checking user security roles.
 
 This bundle is tested with Symfony 2.7+, but it should be compatible with Symfony 2.3+
 
+### Warning
+
+The RoleChecker service doesn't emulate an user authentication. It mean that if 
+the authentication process modify user rights, the service can detect roles 
+updates.
+
 ## Documentation
 
 ### Install it
