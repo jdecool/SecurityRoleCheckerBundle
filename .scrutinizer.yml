@@ -1,3 +1,9 @@
+checks:
+    php:
+        excluded_dependencies:
+            - atoum/atoum
+            - atoum/stubs
+
 filter:
     paths:
         - "*"
