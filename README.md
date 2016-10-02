@@ -1,6 +1,7 @@
 # Symfony security role checker
 
 [![Build Status](https://travis-ci.org/jdecool/SecurityRoleCheckerBundle.svg?branch=master)](https://travis-ci.org/jdecool/SecurityRoleCheckerBundle)
+[![Build status](https://ci.appveyor.com/api/projects/status/github/jdecool/securityrolecheckerbundle?svg=true)](https://ci.appveyor.com/project/jdecool/securityrolecheckerbundle)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jdecool/SecurityRoleCheckerBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jdecool/SecurityRoleCheckerBundle/?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/jdecool/security-role-checker-bundle/v/stable.png)](https://packagist.org/packages/jdecool/security-role-checker-bundle)
 
